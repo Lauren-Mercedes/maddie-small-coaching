@@ -100,3 +100,34 @@ Wireframes generated in Balsamiq
 ![image of contact page wireframe](assets/readme-media/wireframes/contact-wireframe.png)
 
 
+# Credits
+
+All code was written by the developer.
+All content was co-written with Maddie Small Coaching 
+
+[VSCode](https://code.visualstudio.com/)
+
+- Used to develop custom html and css for the website.
+
+[Balsamiq](https://balsamiq.com/)
+
+- Used to draw up wireframes and summary image used in readme file.
+
+[Favicon](https://favicon.io/)
+
+- Used to generate favicon for webpages.
+
+[Canva](https://www.canva.com/)
+
+- Used to design logo.
+
+### Acknowledgements
+
+Developed with the support of
+
+- Maddie Small, Owner of Maddie Small Coaching (the client)
+- Marcel, my tutor.
+- James, my partner.
+- Raghav, my lecturer.
+- The Code Institute, learning content provider.
+- Slack community and fellow students.
