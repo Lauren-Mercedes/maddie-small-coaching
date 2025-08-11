@@ -108,7 +108,12 @@ background-color: #BD385F80;
     justify-content: flex-end;
     padding: 2rem 0;  
 }
-
+/* bio header styling */
+#bio-header {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 /* bio section image styling */
 #bio-image {
     width: 50%;
@@ -116,6 +121,21 @@ background-color: #BD385F80;
  display: block;
     margin-left: auto;
     margin-right: 5%;
+}
+/* bio text styling */
+#bio-text {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 5%;
+}
+/* contact link in bio styling */
+#bio-text a{
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 12px;
+    line-height: 2;
 }
 
 /* Rules for larger screens */
@@ -160,4 +180,25 @@ background-position: top;
     #overlay {
       font-size: 2rem;
     }
+    /* bio section styling */
+    /* bio header styling */
+    #bio-header {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    } 
+    /* bio section image styling */
+    #bio-image {
+        width: 30%;
+        height: auto;
+        margin-right: 2%;
+    }
+    /* bio text styling */
+    #bio-text {
+        font-size: 1.5rem;
+    }
+    /* contact link in bio styling */
+    #bio-text a {
+        line-height: 5;
+    }
+
 }
