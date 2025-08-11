@@ -100,6 +100,23 @@ nav {
     flex-direction: column;
     justify-content: center;
 }
+/* bio section styling */
+#bio {
+background-color: #BD385F80;
+    display: flex;
+    align-items: center;     
+    justify-content: flex-end;
+    padding: 2rem 0;  
+}
+
+/* bio section image styling */
+#bio-image {
+    width: 50%;
+    height: auto;
+ display: block;
+    margin-left: auto;
+    margin-right: 5%;
+}
 
 /* Rules for larger screens */
 @media screen and (min-width: 768px) {
