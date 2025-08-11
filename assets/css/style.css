@@ -1,3 +1,9 @@
+/* Variables to define colour scheme */
+:root {
+    --primary-color: #BD385F;
+    --secondary-color: #FFE3EC;
+}
+
 #logo{
     border-radius: 50%;
    height: 75px;
@@ -12,14 +18,14 @@ nav {
     width: 75px;
     min-height: 100px;
     float: right;
-    background-color: #ffe3ec;
+    background-color: var(--secondary-color);
     line-height: 2;
     text-align: right;
     padding: 10px;
 }
 /* navigation menu link style */
 #nav-menu a{
-    color: #BD385F;
+    color: var(--primary-color);
     text-decoration: none;
 }
 /* On hover underline navigation menu link */
