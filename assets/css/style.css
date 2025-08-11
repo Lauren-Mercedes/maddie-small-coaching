@@ -6,16 +6,27 @@
 /* General body styling */
 *{
 font-family: garamond, sans-serif;
+margin: 0;
+padding: 0;
+}
+body {
+    background-color: #efebec;
+    color: var(--primary-color);
 }
 /* Logo size and position */
 #logo{
     border-radius: 50%;
    height: 75px;
 }
+
 /* Navigation menu default hidden on smaller screens activated by menu toggle */
 nav {
     display:none; 
    height: 130px;
+   position: absolute;
+    top: 10;
+    right: 0;
+z-index: 1;
 }
 /* navigation menu style & position */
 #nav-menu {
@@ -42,7 +53,6 @@ nav {
     text-decoration: underline;
     color: var(--primary-color);
 }
-
 /* toggle display navigation menu on click of icon */
 #menu-toggle:checked~nav {
     display: block;
@@ -54,9 +64,11 @@ nav {
 /* styling of menu icon */
 #menu-icon {
     width: 75px;
-    float: right;
     cursor: pointer;
     margin-bottom:0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 /* Hero section styling */
 /* Hero image */
@@ -73,8 +85,7 @@ nav {
    text-align: center;
    display: flex;
    flex-direction: column;
-   justify-content: flex-end;
-   line-height: 1;
+   justify-content: center;
 }
 
 /* Rules for larger screens */
