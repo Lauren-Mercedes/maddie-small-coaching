@@ -32,6 +32,12 @@ nav {
 #nav-menu a:hover{
     text-decoration-line: underline; 
 }
+/* Underline menu link of current page */
+.current-page{
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
 /* toggle display navigation menu on click of icon */
 #menu-toggle:checked~nav {
     display: block;
