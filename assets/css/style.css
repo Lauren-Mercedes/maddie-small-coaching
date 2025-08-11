@@ -3,31 +3,35 @@
     --primary-color: #BD385F;
     --secondary-color: #FFE3EC;
 }
+
 /* General body styling */
-*{
-font-family: garamond, sans-serif;
-margin: 0;
-padding: 0;
+* {
+    font-family: garamond, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 body {
     background-color: #efebec;
     color: var(--primary-color);
 }
+
 /* Logo size and position */
-#logo{
+#logo {
     border-radius: 50%;
-   height: 75px;
+    height: 75px;
 }
 
 /* Navigation menu default hidden on smaller screens activated by menu toggle */
 nav {
-    display:none; 
-   height: 130px;
-   position: absolute;
+    display: none;
+    height: 130px;
+    position: absolute;
     top: 10;
     right: 0;
-z-index: 1;
+    z-index: 1;
 }
+
 /* navigation menu style & position */
 #nav-menu {
     list-style: none;
@@ -38,81 +42,105 @@ z-index: 1;
     line-height: 2;
     text-align: right;
     padding: 10px;
+    font-weight: bold;
 }
+
 /* navigation menu link style */
-#nav-menu a{
+#nav-menu a {
     color: var(--primary-color);
     text-decoration: none;
 }
+
 /* On hover underline navigation menu link */
-#nav-menu a:hover{
-    text-decoration-line: underline; 
+#nav-menu a:hover {
+    text-decoration-line: underline;
 }
+
 /* Underline menu link of current page */
-.current-page{
+.current-page {
     text-decoration: underline;
     color: var(--primary-color);
 }
+
 /* toggle display navigation menu on click of icon */
 #menu-toggle:checked~nav {
     display: block;
 }
+
 /* hide default checkbox */
 #menu-toggle {
     display: none;
 }
+
 /* styling of menu icon */
 #menu-icon {
     width: 75px;
     cursor: pointer;
-    margin-bottom:0;
+    margin-bottom: 0;
     position: absolute;
     top: 0;
     right: 0;
 }
+
 /* Hero section styling */
 /* Hero image */
-#hero{
+#hero {
     height: 200px;
     width: 100%;
     background: url(../images/hero-image.png) no-repeat center/cover;
 }
+
 /* Content and overlay */
 #overlay {
-   background-color: #BD385F80; 
-   height: 100%;
-   color: white;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+    background-color: #BD385F80;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Rules for larger screens */
-@media screen and  (min-width: 768px){
- /* hide menu icon on larger screens */
+@media screen and (min-width: 768px) {
+
+    /* hide menu icon on larger screens */
     #menu-icon {
-        display: none; 
+        display: none;
     }
-    #logo{
+
+    #logo {
         height: 100px;
     }
- /* Show navigation menu on larger screens */
-    nav{
+
+    /* Show navigation menu on larger screens */
+    nav {
         display: block;
         width: 100%;
     }
+
     /* Header content position on larger screens */
     header {
-        display: flex; 
+        display: flex;
         flex-direction: row;
     }
+
     /* style menu on larger screens */
     #nav-menu {
         display: flex;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         width: 75%;
         background-color: transparent;
         gap: 20%;
+        font-size: 120%;
+    }
+    #hero {
+        height: 300px;
+background-position: top;
+    }
+    #overlay {
+      font-size: 2rem;
     }
 }
