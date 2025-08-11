@@ -2,6 +2,9 @@
 :root {
     --primary-color: #BD385F;
     --secondary-color: #FFE3EC;
+    --background-color: #BD385F80;
+    --base-color: #efebec;
+
 }
 
 /* General body styling */
@@ -12,8 +15,7 @@
 }
 
 body {
-    background-color: #efebec;
-    color: var(--primary-color);
+    background-color: var(--base-color);
 }
 
 /* Logo size and position */
@@ -92,7 +94,7 @@ nav {
 
 /* Content and overlay */
 #overlay {
-    background-color: #BD385F80;
+    background-color: var(--background-color);
     height: 100%;
     color: white;
     text-align: center;
@@ -100,36 +102,42 @@ nav {
     flex-direction: column;
     justify-content: center;
 }
+
 /* bio section styling */
 #bio {
-background-color: #BD385F80;
+    background-color: var(--background-color);
     display: flex;
-    align-items: center;     
+    align-items: center;
     justify-content: flex-end;
-    padding: 2rem 0;  
+    padding: 2rem 0;
+    color: var(--secondary-color);
 }
+
 /* bio header styling */
 #bio-header {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
 }
+
 /* bio section image styling */
 #bio-image {
     width: 50%;
     height: auto;
- display: block;
+    display: block;
     margin-left: auto;
     margin-right: 5%;
 }
+
 /* bio text styling */
 #bio-text {
     text-align: center;
     font-size: 0.75rem;
     margin: 5%;
 }
+
 /* contact link in bio styling */
-#bio-text a{
+#bio-text a {
     background-color: var(--primary-color);
     color: white;
     text-decoration: none;
@@ -173,29 +181,35 @@ background-color: #BD385F80;
         gap: 20%;
         font-size: 120%;
     }
+
     #hero {
         height: 300px;
-background-position: top;
+        background-position: top;
     }
+
     #overlay {
-      font-size: 2rem;
+        font-size: 2rem;
     }
+
     /* bio section styling */
     /* bio header styling */
     #bio-header {
         font-size: 3rem;
         margin-bottom: 2rem;
-    } 
+    }
+
     /* bio section image styling */
     #bio-image {
         width: 30%;
         height: auto;
         margin-right: 2%;
     }
+
     /* bio text styling */
     #bio-text {
         font-size: 1.5rem;
     }
+
     /* contact link in bio styling */
     #bio-text a {
         line-height: 5;
