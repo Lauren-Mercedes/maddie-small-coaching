@@ -6,6 +6,26 @@
 nav {
     display:none; 
 }
+/* navigation menu style & position */
+#nav-menu {
+    list-style: none;
+    width: 75px;
+    min-height: 100px;
+    float: right;
+    background-color: #ffe3ec;
+    line-height: 2;
+    text-align: right;
+    padding: 10px;
+}
+/* navigation menu link style */
+#nav-menu a{
+    color: #BD385F;
+    text-decoration: none;
+}
+/* On hover underline navigation menu link */
+#nav-menu a:hover{
+    text-decoration-line: underline; 
+}
 /* toggle display navigation menu on click of icon */
 #menu-toggle:checked~nav {
     display: block;
@@ -13,4 +33,11 @@ nav {
 /* hide default checkbox */
 #menu-toggle {
     display: none;
+}
+/* styling of menu icon */
+#menu-icon {
+    width: 75px;
+    float: right;
+    cursor: pointer;
+    margin-bottom:0;
 }
