@@ -99,6 +99,13 @@ Wireframes generated in Balsamiq
 
 ![image of contact page wireframe](assets/readme-media/wireframes/contact-wireframe.png)
 
+# Bugs and fixes
+
+#### Positioning of the navigation bar within the header cuts the text off on deployed site.
+
+![image of navigation positioning error](assets/readme-media/bugs/nav-error.png)
+
+Applying flex properties to the header, in place of position properties in the navigation menu, fixed the issue.
 
 # Credits
 

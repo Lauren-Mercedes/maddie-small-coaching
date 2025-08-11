@@ -54,19 +54,25 @@ nav {
     #menu-icon {
         display: none; 
     }
-    /* show navigation menu on larger screens */
-    nav {
-        display: block; 
+    #logo{
+        height: 100px;
+    }
+ /* Show navigation menu on larger screens */
+    nav{
+        display: block;
+        width: 100%;
+    }
+    /* Header content position on larger screens */
+    header {
+        display: flex; 
+        flex-direction: row;
     }
     /* style menu on larger screens */
     #nav-menu {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 75%;
         background-color: transparent;
-        position: absolute;
-        bottom: 80%;
-        left: 20%;
+        gap: 20%;
     }
-
 }
