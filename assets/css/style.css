@@ -1,0 +1,16 @@
+#logo{
+    border-radius: 50%;
+   height: 75px;
+}
+/* Navigation menu default hidden on smaller screens activated by menu toggle */
+nav {
+    display:none; 
+}
+/* toggle display navigation menu on click of icon */
+#menu-toggle:checked~nav {
+    display: block;
+}
+/* hide default checkbox */
+#menu-toggle {
+    display: none;
+}
