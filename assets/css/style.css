@@ -3,7 +3,11 @@
     --primary-color: #BD385F;
     --secondary-color: #FFE3EC;
 }
-
+/* General body styling */
+*{
+font-family: garamond, sans-serif;
+}
+/* Logo size and position */
 #logo{
     border-radius: 50%;
    height: 75px;
@@ -11,6 +15,7 @@
 /* Navigation menu default hidden on smaller screens activated by menu toggle */
 nav {
     display:none; 
+   height: 130px;
 }
 /* navigation menu style & position */
 #nav-menu {
@@ -52,6 +57,24 @@ nav {
     float: right;
     cursor: pointer;
     margin-bottom:0;
+}
+/* Hero section styling */
+/* Hero image */
+#hero{
+    height: 200px;
+    width: 100%;
+    background: url(../images/hero-image.png) no-repeat center/cover;
+}
+/* Content and overlay */
+#overlay {
+   background-color: #BD385F80; 
+   height: 100%;
+   color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   line-height: 1;
 }
 
 /* Rules for larger screens */
