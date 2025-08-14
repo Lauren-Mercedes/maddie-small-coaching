@@ -145,23 +145,39 @@ nav {
     border-radius: 12px;
     line-height: 2;
 }
+
+/* positioning for carousel and scroll buttons */
+#carousel-container {
+    display: flex;
+    align-items: center;
+}
+
+/* size and style of scroll buttons */
+.news-button {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    cursor: pointer;
+}
+
 /* Carousel section styling */
 #carousel {
-    width: 50%;
-  height: 300px;
-  padding: 5%;
-  display: flex;
-  gap: 5%;
-  margin-left: 5%;
+    min-width: 70%;
+    height: 300px;
+    padding: 2%;
+    display: flex;
+    gap: 5%;
+    /* enables use of left and right buttons  */
+    overflow-x: scroll;
 }
 
 /* Carousel item styling */
 .carousel-item {
-  list-style-type: none;
-  background-color: var(--secondary-color);
-  border: 1px solid var(--background-color);
-  padding: 25%; 
-  flex: 0 0 100% ; 
+    list-style-type: none;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--background-color);
+    width: 100%;
+    flex: 0 0 100%;
 }
 
 /* Rules for larger screens */
