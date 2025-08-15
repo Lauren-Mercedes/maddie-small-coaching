@@ -194,6 +194,9 @@ nav {
     flex: 0 0 100%;
 }
 
+.news-title{
+    background-color: white;
+}
 
 /* Carousel markers position */
 #markers {
@@ -293,7 +296,19 @@ nav {
 
     /*carousel height on larger screens */
     #carousel {
-        height: 500px;
+        height: 600px;
+        margin-top: 5%;
+    }
+
+    .carousel-item {
+        width: 50%;
+        max-height: 100%;
+    }
+
+    .news-title{
+        width: 50%;
+        font-size: 2.5rem;
+        margin: auto;
     }
 
     /* Carousel buttons on larger screens */
