@@ -169,6 +169,8 @@ nav {
     gap: 5%;
     /* enables use of left and right buttons  */
     overflow-x: scroll;
+    /* Hide scrollbar */
+    scrollbar-width: none;
 }
 
 /* Carousel item styling */
@@ -179,6 +181,24 @@ nav {
     width: 100%;
     flex: 0 0 100%;
 }
+
+/* Carousel markers position */
+#markers {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+/* Carousel marker styling */
+.marker {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
 
 /* Rules for larger screens */
 @media screen and (min-width: 768px) {
@@ -225,28 +245,33 @@ nav {
         font-size: 2rem;
     }
 
-    /* bio section styling */
-    /* bio header styling */
+    /* bio section styling  on larger screens */
+    /* bio header styling on larger screens */
     #bio-header {
         font-size: 3rem;
         margin-bottom: 2rem;
     }
 
-    /* bio section image styling */
+    /* bio section image styling on larger screens */
     #bio-image {
         width: 30%;
         height: auto;
         margin-right: 2%;
     }
 
-    /* bio text styling */
+    /* bio text styling on larger screens */
     #bio-text {
         font-size: 1.5rem;
     }
 
-    /* contact link in bio styling */
+    /* contact link in bio styling on larger screens */
     #bio-text a {
         line-height: 5;
+    }
+
+    /*carousel height on larger screens */
+    #carousel {
+        height: 500px;
     }
 
 }
