@@ -215,6 +215,35 @@ nav {
     background-color: var(--secondary-color);
 }
 
+/*social media icons in footer*/
+.icon-size {
+    height: 2rem;
+    width: 2rem;
+    float: right;
+    margin-right: 1%;
+}
+/* quick links style and position */
+    #footer-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        background-color: transparent;
+        gap: 5%;
+        list-style-type: none;
+        margin: 5% auto 5% auto;
+    }
+
+    /* footer navigation menu link style */
+#footer-menu a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* On hover underline footer navigation menu link */
+#footer-menu a:hover {
+    text-decoration-line: underline;
+}
 
 /* Rules for larger screens */
 @media screen and (min-width: 768px) {
