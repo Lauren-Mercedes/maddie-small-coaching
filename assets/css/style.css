@@ -1,9 +1,9 @@
 /* Variables to define colour scheme */
 :root {
-    --primary-color: #BD385F;
-    --secondary-color: #FFE3EC;
-    --background-color: #BD385F80;
-    --base-color: #efebec;
+    --primary-color: #233387;
+    --secondary-color: #649EEB;
+    --background-color: #23338780;
+    --base-color: #7992BC;
 }
 
 /* General body styling */
@@ -123,7 +123,7 @@ nav {
     align-items: center;
     justify-content: flex-end;
     padding: 2rem 0;
-    color: var(--secondary-color);
+    color: white;
     text-align: center;
 }
 
@@ -153,7 +153,7 @@ nav {
 }
 
 #news {
-    background-color: var(--secondary-color);
+    background-color: white;
     padding: 2rem;
     text-align: center;
 }
