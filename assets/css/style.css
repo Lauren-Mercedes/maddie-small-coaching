@@ -255,20 +255,23 @@ color: white;
 }
 
 /* testimonials */
-
+/* general styling for testimonials section */
 #testimonials {
     background-color: var(--background-color);
     color: white;
     text-align: center;
 }
 
+/* Grid structure for testimonials */
+
 #testimonial-grid {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
 grid-template-rows: repeat(auto-fit, minmax(2, 1fr));
 margin: 5% 0 5% 0;
-
 }
+
+/* tile styling for text tiles */
 
 .testimonial {
     background-color: var(--base-color);
@@ -278,6 +281,15 @@ margin: 5% 0 5% 0;
      line-height: 2;
 }
 
+/* link to feedback form */
+#testimonials a {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 12px;
+    line-height: 2;
+}
 
 /* Footer */
 
