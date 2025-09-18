@@ -113,7 +113,7 @@ nav {
 }
 
 /* Content and overlay */
-#overlay {
+.overlay {
     background-color: var(--background-color);
     height: 100%;
     color: white;
@@ -224,6 +224,11 @@ nav {
 
 /* Portfolio Page */
 
+#portfolio-intro{
+    background-color: var(--primary-color);
+    padding: 1rem;;
+}
+
 /* Portfolio Showcase */
 #portfolio-showcase {
     background-color: var(--background-color);
@@ -324,6 +329,7 @@ nav {
     header {
         display: flex;
         flex-direction: row;
+        margin-bottom: 1%;
     }
 
     /* style menu on larger screens */
