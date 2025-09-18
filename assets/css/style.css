@@ -260,6 +260,7 @@ color: white;
     background-color: var(--background-color);
     color: white;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 /* Grid structure for testimonials */
@@ -286,10 +287,11 @@ margin: 5% 0 5% 0;
     background-color: var(--primary-color);
     color: white;
     text-decoration: none;
-    padding: 2%;
+    padding: 1%;
     border-radius: 12px;
-    line-height: 2;
+    line-height: 3;
 }
+
 
 /* Footer */
 
@@ -404,8 +406,9 @@ margin: 5% 0 5% 0;
         font-size: 1.5rem;
     }
 
-    /* contact link in bio styling on larger screens */
-    #bio-text a {
+    /* contact link button styling on larger screens */
+    /* In bio section and portfolio testimonials */
+    #bio-text a, #testimonials a {
         line-height: 5;
     }
 
@@ -450,7 +453,7 @@ margin: 5% 0 5% 0;
         width: 30%;
         height: auto;
     }
-
+    
     /* footer styling on larger screens */
 
     #footer-menu {
