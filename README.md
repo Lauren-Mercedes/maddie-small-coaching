@@ -1,5 +1,5 @@
 # Maddie Small Coaching
-This website is a showcase for Maddie Small Coaching providing information on her services, a space to market her business, and an opportunity for clients to make bookings and contact her.
+This website is a showcase for Maddie Small Coaching providing information on her services, a space to market her business, and an opportunity for clients to make bookings and contact her. Part way through this project due to business commitments Maddie could not provide me with the content for written sections or images so as placeholders I used Freepik for images and GitHub Copilot to write the sections required.
 
 
 # User Experience - Strategy
@@ -127,6 +127,14 @@ All content was co-written with Maddie Small Coaching
 [Canva](https://www.canva.com/)
 
 - Used to design logo.
+
+GitHub Copilot
+
+- Used to generate written content
+
+[Freepik](https://www.freepik.com/)
+
+- Used for images
 
 ### Acknowledgements
 

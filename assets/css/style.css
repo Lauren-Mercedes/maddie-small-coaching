@@ -302,6 +302,15 @@ margin: 5% 0 5% 0;
     line-height: 3;
 }
 
+.testimonial-image {
+    width: 50%;
+    height: auto;
+}
+
+.service-image {
+    width: 30%;
+    height: auto;
+}
 
 /* Footer */
 
@@ -393,9 +402,9 @@ margin: 5% 0 5% 0;
     /* About Page */
 
     /* hero image adjustment for larger screens */
-    #hero {
+    .hero {
         height: 400px;
-        background-position: top;
+        background-position: center;
     }
 
     #overlay {
